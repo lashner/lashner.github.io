@@ -1,11 +1,14 @@
-html, body {
+body {
+	background-image: url("images/jump.jpg");
 	font-family: 'Avenir Next', Avenir Next, Avenir, Verdana, Helvetica, sans-serif;
+	margin: 0 auto;
+	width: 100%;
 }
 
 #globalNav {
     list-style: none;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 0 0 lem 0;
     padding: 0;
     width: 100%;
@@ -23,6 +26,7 @@ html, body {
 	list-style-type: none;
 	margin: 0 auto;
     padding-left: 0;
+    padding-right: 80px;
     padding-bottom: 0;
 }
 
@@ -33,7 +37,7 @@ html, body {
 #globalNav li a {
 	display: block;
     color: #aaa;
-    padding: 10px 20px;
+    padding: 9px 20px;
     text-decoration: none;
 }
 
@@ -44,4 +48,28 @@ html, body {
 #globalNav .selected li a {
 	color: #fff;
 	background-color: #000;
+}
+
+body .image {
+	top: 40px;
+	left: 0;
+	right: 0;
+	position: relative;
+  width: 100%;
+}
+
+img {
+	height: 100%;
+}
+
+h2 { 
+   position: absolute; 
+   bottom: 0; 
+   left: 40px; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white;
+   text-align: center; 
 }
